@@ -1,0 +1,90 @@
+.hero{
+  background-image: url('../images/bellaBackgroundImage.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.skip-link{
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus{
+  top: 0;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 25px;
+  color: purple;
+  font-family: arial, sans-serif;
+}
+
+.about-maltipoos-header{
+  text-align: center;
+}
+
+.about-maltipoos-text{
+  font-size: 30px;
+  text-align: center;
+}
+
+.maltipoo-photo{
+  width: 500px;
+  display: block;
+  margin: 20px auto;
+  border: 8px solid black;
+  padding: 2px;
+}
+
+.bella-photos-header{
+  text-align: center;
+}
+
+.images-grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.images-grid img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.images-grid img:nth-child(odd){
+  border: 8px solid black;
+}
+
+.images-grid img:nth-child(even){
+  border: 8px solid rgb(193, 120, 211);
+}
+
+.my-dog-bella-link:hover{
+  color: pink;
+}
+
+.about-maltipoos-link:hover{
+  color: pink;
+}
+
+.photos-of-bella-link:hover{
+  color: pink;
+}
+
